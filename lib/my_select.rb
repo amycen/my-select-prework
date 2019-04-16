@@ -8,4 +8,6 @@ def my_select(collection)
    while i < collection.length
      result << yield collection[i] == true
      i += 1
+   end
+ end
 end
