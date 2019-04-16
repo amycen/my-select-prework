@@ -9,4 +9,3 @@ def my_select(collection)
      result << yield collection[i] == true
      i += 1
 end
-
